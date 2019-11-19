@@ -1,0 +1,17 @@
+title: learn-typescript
+tagline: A brand new course on Learning Lab
+description: Learn TypeScript
+template:
+  repo: learn-typescript-template
+  name: learn-typescript
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
