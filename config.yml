@@ -17,4 +17,12 @@ steps:
       - type: createIssue
         title: Super Super Geil!
         body: new-issue.md
+  - title: Install NodeJS
+    description: Learn How to Install NodeJS
+    event: issues.closed
+    link: '{{ repoUrl }}'
+    actions:
+      - type: createIssue
+        title: Super Super Geil - Part 2
+        body: new-issue.md
 
