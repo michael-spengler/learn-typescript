@@ -6,7 +6,7 @@ template:
   name: learn-typescript
 before:
   - type: createIssue
-    title: Welcome!
+    title: Welcome to the first Issue!
     body: new-issue.md
 steps:
   - title: First step
