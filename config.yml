@@ -9,9 +9,12 @@ before:
     title: Welcome to the first Issue!
     body: new-issue.md
 steps:
-  - title: First step
-    description: The first step in your course
-    event: issues.assigned
+  - title: Install GitHub
+    description: Learn How to Install GitHub
+    event: issues.closed
     link: '{{ repoUrl }}'
     actions:
-      - type: closeIssue
+      - type: createIssue
+        title: Super Super Geil!
+        body: new-issue.md
+
